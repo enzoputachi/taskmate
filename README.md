@@ -8,4 +8,12 @@
 
     export default App;
 
-## 006 - Components
+## 006 - JSX
+const App = () => {
+    return (
+        <>
+            <h1 className="active">Hek you</h1>
+            <div>My wiki</div>
+        </>
+    )
+}
